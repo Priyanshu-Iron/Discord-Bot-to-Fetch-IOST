@@ -19,9 +19,7 @@ class Settings(BaseSettings):
     # Discord Configuration
     discord_bot_token: str
     discord_channel_id: int
-    
-    # IOST Configuration
-    iost_wallet_address: str = "inwaliost"
+    discord_registration_channel_id: int = 1465388792549474430
     
     # Polling Configuration (25-30 seconds as specified)
     poll_interval_seconds: int = 25
