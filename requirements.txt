@@ -1,0 +1,21 @@
+# IOST Wallet Monitor - Python Dependencies
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# HTTP Client (async)
+httpx>=0.26.0
+
+# Discord Integration
+discord.py>=2.3.0
+
+# Configuration
+python-dotenv>=1.0.0
+pydantic-settings>=2.1.0
+
+# Async File I/O
+aiofiles>=23.2.0
+
+# Type hints for aiofiles
+types-aiofiles>=23.2.0
